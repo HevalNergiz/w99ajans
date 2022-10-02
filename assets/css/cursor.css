@@ -47,3 +47,7 @@
   }
 }
 
+.referanslar a {
+  pointer-events: none;
+}
+

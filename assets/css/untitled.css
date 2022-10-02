@@ -131,7 +131,7 @@ h4 {
 @media (min-width: 768px) {
   .referanslar img {
     max-width: 8rem;
-    margin: -1rem 1rem!important;
+    margin: -.5rem 1rem!important;
   }
 }
 

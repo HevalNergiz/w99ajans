@@ -1,0 +1,54 @@
+:-webkit-any-link {
+  /*color: #4e9815;*/
+}
+
+:-moz-any-link {
+  /*color: #4e9815;*/
+}
+
+:any-link {
+  /*color: #4e9815;*/
+}
+
+.df {
+  display: flex;
+}
+
+.aic {
+  align-items: center;
+}
+
+.jcc {
+  justify-content: center;
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: black;
+  color: white;
+  z-index: 999999999;
+}
+
+.demo-wrapper {
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.demo-gallery:not(.last) {
+  padding-bottom: 1rem;
+}
+
+.demo-text .text {
+  font-size: clamp(5rem, 12vw, 16rem);
+  line-height: 1.2;
+  font-weight: 900;
+  padding: 16px 0;
+}
+
