@@ -35,6 +35,8 @@
 
 .demo-wrapper {
   overflow-x: hidden;
+  font-family: 'Rubik';
+  font-weight: bold;
 }
 
 .wrapper {
@@ -46,7 +48,7 @@
 }
 
 .demo-text .text {
-  font-size: clamp(5rem, 12vw, 16rem);
+  font-size: clamp(4rem, 10vw, 16rem);
   line-height: 1.2;
   font-weight: 900;
   padding: 16px 0;
