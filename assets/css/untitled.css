@@ -1,0 +1,173 @@
+#mainNav {
+  border-color: transparent;
+  background-color: rgba(255,255,255,0.25);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+.btn-dark {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #1a1a1a;
+  --bs-btn-border-color: #343a40;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #52585d;
+  --bs-btn-hover-border-color: #484e53;
+  --bs-btn-focus-shadow-rgb: 0,0,0;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #5d6166;
+  --bs-btn-active-border-color: #484e53;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #343a40;
+  --bs-btn-disabled-border-color: #343a40;
+}
+
+h3 {
+  font-family: 'Rubik';
+  font-weight: bold;
+}
+
+.bg-primary-gradient.featurescont h4 {
+  font-family: 'Rubik';
+  font-weight: bold;
+}
+
+.featurescont .bs-icon {
+  background-color: #ad1f24;
+  color: #fff;
+}
+
+.featurescont a {
+  color: #1a1a1a;
+}
+
+.featurescont p {
+  color: #696969;
+}
+
+.featurescont {
+  font-family: 'Rubik';
+  border-radius: 2rem;
+  background-color: #f2f4f8;
+}
+
+:root {
+  --bs-blue: #3763f4;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #e33cd1;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #00b779;
+  --bs-teal: #00b4c9;
+  --bs-cyan: #00b4c9;
+  --bs-black: #000;
+  --bs-white: #fff;
+  --bs-gray: #4e5d78;
+  --bs-gray-dark: #343a40;
+  --bs-gray-100: #f5f6f8;
+  --bs-gray-200: #e9ecef;
+  --bs-gray-300: #dee2e6;
+  --bs-gray-400: #ced4da;
+  --bs-gray-500: #adb5bd;
+  --bs-gray-600: #4e5d78;
+  --bs-gray-700: #495057;
+  --bs-gray-800: #343a40;
+  --bs-gray-900: #2d2d2d;
+  --bs-primary: #ad1f24;
+  --bs-secondary: #e33cd1;
+  --bs-success: #00b779;
+  --bs-info: #00b4c9;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f5f6f8;
+  --bs-dark: #343a40;
+  --bs-primary-rgb: 55, 99, 244;
+  --bs-secondary-rgb: 227, 60, 209;
+  --bs-success-rgb: 0, 183, 121;
+  --bs-info-rgb: 0, 180, 201;
+  --bs-warning-rgb: 255, 193, 7;
+  --bs-danger-rgb: 173, 31, 36;
+  --bs-light-rgb: 245, 246, 248;
+  --bs-dark-rgb: 26, 26, 26;
+  --bs-white-rgb: 255, 255, 255;
+  --bs-black-rgb: 0, 0, 0;
+  --bs-body-color-rgb: 45, 45, 45;
+  --bs-body-bg-rgb: 255, 255, 255;
+  --bs-font-sans-serif: "Inter", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+  --bs-body-font-family: var(--bs-font-sans-serif);
+  --bs-body-font-size: 1rem;
+  --bs-body-font-weight: 400;
+  --bs-body-line-height: 1.6;
+  --bs-body-color: #2d2d2d;
+  --bs-body-bg: #fff;
+  --bs-border-width: 1px;
+  --bs-border-style: solid;
+  --bs-border-color: #dee2e6;
+  --bs-border-color-translucent: rgba(0, 0, 0, 0.175);
+  --bs-border-radius: 1rem;
+  --bs-border-radius-sm: 1rem;
+  --bs-border-radius-lg: 1rem;
+  --bs-border-radius-xl: 1rem;
+  --bs-border-radius-2xl: 2rem;
+  --bs-border-radius-pill: 50rem;
+  --bs-link-color: #3763f4;
+  --bs-link-hover-color: #2c4fc3;
+  --bs-code-color: #e33cd1;
+  --bs-highlight-bg: #fff3cd;
+}
+
+.shadow {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,0.15) !important;
+}
+
+h4 {
+  font-family: 'Rubik';
+}
+
+@media (min-width: 768px) {
+  .referanslar img {
+    max-width: 8rem;
+    margin: -.5rem 1rem!important;
+  }
+}
+
+@media (max-width: 768px) {
+  .referanslar img {
+    max-width: 5rem;
+    margin: -1rem .5rem!important;
+  }
+}
+
+.btn-danger {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #ad1f23;
+  --bs-btn-border-color: #ad1f23;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #bb2d3b;
+  --bs-btn-hover-border-color: #b02a37;
+  --bs-btn-focus-shadow-rgb: 225, 83, 97;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #b02a37;
+  --bs-btn-active-border-color: #a52834;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #dc3545;
+  --bs-btn-disabled-border-color: #dc3545;
+}
+
+@media (min-width: 576px) {
+  .tercihedildikyazi {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .tercihedildikyazi {
+    font-size: 1.2rem;
+  }
+}
+
